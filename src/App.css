@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito:wght@300&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Montserrat:wght@200&family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat:wght@200&family=Nunito:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-bar {
+  display:flex;
+  align-items: flex-start;
+  position: fixed;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.big-title {
+  display: flex;
+  justify-content: center;
+}
+
+.members-list {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 520px;
+min-height: 600px;
+text-align: center;
+margin: 128px auto;
+border-radius: 10px;
+padding-bottom: 32px;
+
+}
+
+/* .member-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 3420px;
+
+} */
+
+.add-member-title{
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 20px 0px;
+
+}
+
+.submit-button {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ } 
+
+ .edit-title {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 5px 0px;
+
+
+ }
+
+ 
+
+.member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background: #f8f7ff; */
+  /* border: 1px solid rgb(199, 199, 200); */
+  width: 100%;
+  height: 350px;
+  font-size: 30px;
+  font-family: 'Nunito', sans-serif;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.buttons {
+  width: 420px;
+  height: 50px;
+  margin: 0px 0px 5px 10px;
+ 
+  
+}
+
+.add-member {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete-button {
+  margin: 5px 0px 20px 20px;
+  font-size: 30px;
+  border:none;
+  border-radius: 5px;
+  background-color: rgb(247, 25, 25);
+  color: rgb(255, 255, 255);
+  font-family: 'Nunito', sans-serif;
+  cursor: pointer;
+  
+}
+
+.edit-button {
+  margin: 5px 0px 20px 0px;
+  font-size: 30px;
+  border:none;
+  border-radius: 10px;
+  background-color: blue;
+  color: rgb(255, 255, 255);
+  font-family: 'Nunito', sans-serif;
+  cursor: pointer;
+}
